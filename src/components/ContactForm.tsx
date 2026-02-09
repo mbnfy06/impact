@@ -100,10 +100,15 @@ const ContactForm = () => {
                         className="contact-form__select"
                     >
                         <option value="">Selecciona un servicio</option>
-                        <option value="impresion">Impresión Digital</option>
-                        <option value="regalo">Regalo Publicitario</option>
-                        <option value="trade">Trade Marketing</option>
-                        <option value="digital">Digital Signage</option>
+                        <option value="global-marketing">Global Marketing</option>
+                        <option value="digital-printing">Digital Printing</option>
+                        <option value="promotional-gifts">Promotional Gifts</option>
+                        <option value="adhoc-development">Ad-hoc Development</option>
+                        <option value="trade-marketing">Trade Marketing</option>
+                        <option value="digital-signage">Digital Signage</option>
+                        <option value="corporate-design">Corporate Design</option>
+                        <option value="digital-development">Digital Development</option>
+                        <option value="customer-services">Customer Services</option>
                     </select>
                 </div>
 
@@ -127,7 +132,7 @@ const ContactForm = () => {
                         Enviar mensaje
                     </button>
                     <span className="contact-form__note">
-                        Sin compromiso · Respondemos en 24-48h
+                        Sin compromiso · Llámanos: (+34) 91 805 34 00
                     </span>
                 </div>
             </form>

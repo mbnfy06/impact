@@ -22,7 +22,7 @@ const services: Service[] = [
         features: ['Gran formato y rotulación', 'Offset y papelería', 'Textil personalizado'],
     },
     {
-        id: 'regalo',
+        id: 'promotional-gifts',
         icon: (
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 12V22H4V12M22 7H2V12H22V7ZM12 22V7M12 7H7.5C6.83696 7 6.20107 6.73661 5.73223 6.26777C5.26339 5.79893 5 5.16304 5 4.5C5 3.83696 5.26339 3.20107 5.73223 2.73223C6.20107 2.26339 6.83696 2 7.5 2C11 2 12 7 12 7ZM12 7H16.5C17.163 7 17.7989 6.73661 18.2678 6.26777C18.7366 5.79893 19 5.16304 19 4.5C19 3.83696 18.7366 3.20107 18.2678 2.73223C17.7989 2.26339 17.163 2 16.5 2C13 2 12 7 12 7Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -30,7 +30,7 @@ const services: Service[] = [
         ),
         title: 'Regalo Publicitario',
         description: 'Gestión integral de merchandising: búsqueda, diseño, personalización y logística. Oficinas en España y China.',
-        features: ['Negociación directa', 'Marcaje profesional', 'Logística completa'],
+        features: ['Catálogo extenso', 'Personalización total', 'Importación directa'],
     },
     {
         id: 'trade',
@@ -41,11 +41,11 @@ const services: Service[] = [
             </svg>
         ),
         title: 'Trade Marketing',
-        description: 'Expertos en punto de venta. Soluciones llave en mano para negocios locales y grandes cadenas.',
-        features: ['Cartelería y PLV', 'Rótulos y vinilos', 'Instalación profesional'],
+        description: 'Especialistas en punto de venta. Optimizamos la visibilidad y rentabilidad de tu producto en el retail.',
+        features: ['Activación PDV', 'Gestión de categorías', 'Shopper marketing'],
     },
     {
-        id: 'digital',
+        id: 'digital-signage',
         icon: (
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 3H4C2.89543 3 2 3.89543 2 5V15C2 16.1046 2.89543 17 4 17H20C21.1046 17 22 16.1046 22 15V5C22 3.89543 21.1046 3 20 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -53,8 +53,8 @@ const services: Service[] = [
             </svg>
         ),
         title: 'Digital Signage',
-        description: 'Pantallas profesionales de alta calidad para interior y exterior. Software de contenidos a medida.',
-        features: ['Pantallas táctiles', 'Totems y videowall', 'Alta luminosidad'],
+        description: 'Pantallas y contenidos digitales para comunicar en el punto de venta. Hardware, software y gestión de contenidos.',
+        features: ['Pantallas LED/LCD', 'Gestión de contenidos', 'Soporte técnico'],
     },
 ];
 

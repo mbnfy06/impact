@@ -20,11 +20,11 @@ const Hero = () => {
                 <div className="hero__content">
                     <span className="hero__badge">
                         <span className="hero__badge-dot"></span>
-                        Soluciones integrales para marcas y retailers
+                        Retail & Trade Marketing Specialist
                     </span>
 
                     <h1 className="hero__title">
-                        Especialistas en <span className="text-yellow">Retail</span> y <span className="text-yellow">Trade Marketing</span>
+                        Soluciones integrales para el <span className="text-yellow">punto de venta</span>
                     </h1>
 
                     <p className="hero__description">
